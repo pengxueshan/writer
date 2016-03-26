@@ -1,0 +1,160 @@
+body, h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+body, div, span, p, a, li, ul {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container-wrap {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.detail-head {
+  zoom: 1;
+}
+
+.detail-head:before {
+  content: '';
+  display: block;
+}
+
+.detail-head:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: 'microsoft yahei';
+  line-height: 2;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  background-color: #efefef;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #1CBCB4;
+}
+
+.header {
+  text-align: center;
+  background: #1CBCB4;
+  color: #fff;
+  padding: 2em 0;
+}
+
+.header h1 {
+  font-size: 4em;
+}
+
+.container-wrap .layout-column1 {
+  padding: 1.5em;
+  flex: 3;
+}
+
+.container-wrap .layout-column2 {
+  padding: 1.5em;
+  flex: 2;
+}
+
+.article-list-item {
+  padding: 1.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.article-list-item:first-child {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.article-date .article-day {
+  font-size: 2em;
+  color: #BABABA;
+  font-weight: bold;
+}
+
+.article-date .article-year {
+  font-size: 1.2em;
+  color: #BABABA;
+  margin-left: 0.5em;
+}
+
+.aritcle-title {
+  font-size: 2.5em;
+  color: #1CBCB4;
+}
+
+.mod-intro {
+  color: #999;
+  margin-bottom: 1.5em;
+  padding-right: 2em;
+}
+
+.mod-intro .mod-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #CACACA;
+}
+
+.mod-intro .avatar {
+  float: left;
+  margin: 1.5em 1em 0 0;
+}
+
+.mod-intro .avatar img {
+  border-radius: 50%;
+}
+
+.mod-intro .item h3 {
+  color: #1CBCB4;
+}
+
+.article-detail {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 5em;
+}
+
+.detail-head {
+  border-bottom: 1px solid #ddd;
+  padding: 1em;
+}
+
+.detail-head .avatar {
+  float: left;
+}
+
+.detail-head .avatar img {
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+.detail-head .article-date {
+  float: right;
+}
+
+.detail-body {
+  padding: 2em 3em;
+}
+
+.detail-body h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
